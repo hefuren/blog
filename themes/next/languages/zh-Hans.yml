@@ -16,10 +16,13 @@ menu:
   schedule: 日程表
   sitemap: 站点地图
   commonweal: 公益404
-  moodNotes: 心情札记
+  mood-notes: 心情札记
   program: 程序随记
-  projectMgnt: 项目管理
-  AI: 人工智能
+  project-mgnt: 项目管理
+  ai: 人工智能
+  enterprise-mgnt: 企业管理
+  architecture: 架构设计
+
 
 sidebar:
   overview: 站点概览

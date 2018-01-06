@@ -48,9 +48,11 @@ index_with_subtitle: false
 menu:
   home: /
   program: /categories/程序随记/
-  projectMgnt: /categories/项目管理/
-  AI: /categories/AI/
-  moodNotes: /categories/moodNotes/
+  architecture: /categories/架构设计/
+  ai: /categories/人工智能/
+  project-mgnt: /categories/项目管理/
+  enterprise-mgnt: /categories/企业管理/
+  mood-notes: /categories/心情札记/
   #categories: /categories/
   about: /about/
   archives: /archives/
@@ -67,6 +69,12 @@ menu_icons:
   enable: true
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
   home: home
+  program: th-list
+  architecture: fa-cubes
+  ai: fa-microchip
+  project-mgnt: fa-tasks
+  enterprise-mgnt: fa-building
+  mood-notes: fa-heartbeat
   about: user
   categories: th
   schedule: calendar
@@ -74,10 +82,7 @@ menu_icons:
   archives: archive
   sitemap: sitemap
   commonweal: heartbeat
-  moodNotes: heart
-  program: th-list
-  projectMgnt: tasks
-  AI: tasks
+  
   
 
 
