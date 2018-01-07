@@ -86,3 +86,5 @@ deploy:
   type: git
   repository: https://github.com/hefuren/hefuren.github.io.git
   branch: master
+
+
