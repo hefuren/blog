@@ -190,6 +190,7 @@
                  <span class="post-meta-item-text">{{__('post.visitors')}} </span>
                {% endif %}
                  <span class="leancloud-visitors-count"></span>
+		 <span>掳C</span>
              </span>
           {% endif %}
 
@@ -314,11 +315,18 @@
     {### END POST BODY ###}
     {#####################}
 
-     <!-- 增加本文结束 -->
+     <!-- 澧炲姞鏈枃缁撴潫 -->
      <div>
 	  {% if not is_index %}
 	    {% include 'passage-end-tag.swig' %}
 	  {% endif %}
+     </div>
+
+     <!-- 澧炲姞鐗堟潈淇℃伅 -->
+     <div>
+      {% if not is_index %}
+        {% include 'my-copyright.swig' %}
+      {% endif %}
      </div>
     
     {% if theme.wechat_subscriber.enabled and not is_index %}

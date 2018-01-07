@@ -1,5 +1,6 @@
 // Custom styles.
 
+/** 屏幕设置**/
 @media screen and (min-width: 1600px) {
   body {
     background-repeat: no-repeat;
@@ -18,6 +19,8 @@
     width: 1100px;
   }
 }
+
+/**字体设置 */
 h1,
 h2,
 h3,
@@ -36,6 +39,8 @@ h6 {
     color: #eee;
   }
 }
+
+/*菜单设置*/
 .site-brand-wrapper {
   background: rgba(31,166,122,0.7);
 }
@@ -145,9 +150,29 @@ h6 {
   color: #1fa67a;
   text-decoration: none;
 }
-.links-of-blogroll-item i {
-  color: #1fa67a;
+
+/*友情链接样式*/
+.links-of-blogroll-inline .links-of-blogroll-item a {
+  box-sizing: border-box;
+  display: inline-block;
+  margin-right: 0;
+  margin-bottom: 0;
+  padding: 0 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
+
+.links-of-blogroll-inline .links-of-blogroll-item {
+  margin: 0px;
+  width: auto;
+  line-height: 1.5;
+}
+
+.links-of-blogroll-item i {
+  color: #1fa67a;  
+}
+
 .links-of-blogroll-list a {
   color: #1fa67a;
   border-bottom: 0px;
@@ -180,6 +205,8 @@ h6 {
   border-radius: 4px;
   color: #1fa67a;
 }
+
+/*阅读全文*/
 .btn .btn-default .read-more {
   border: 1px solid #e8e8e8;
   color: #1fa67a;
@@ -205,6 +232,7 @@ h6 {
   margin-right: 0px;
   background: #f0f0f0;
 }
+
 #footer {
   background: rgba(59,59,59,0.8);
   color: #ddd;
@@ -222,6 +250,7 @@ h6 {
 #top {
   display: block;
 }
+
 .posts-collapse::after {
   margin-left: -2px;
   background-image: linear-gradient(180deg, #f79533 0, #f37055 15%, #ef4e7b 30%, #a166ab 44%, #5073b8 58%, #1098ad 72%, #07b39b 86%, #6dba82 100%);
@@ -235,4 +264,5 @@ h6 {
 .posts-collapse .post-header::before {
   background: #1fa67a;
 }
+
 

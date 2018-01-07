@@ -118,7 +118,7 @@
             <ul class="links-of-blogroll-list">
               {% for name, link in theme.links %}
                 <li class="links-of-blogroll-item">
-                  <a href="{{ link }}" title="{{ name }}" target="_blank">{{ name }}</a>
+		  <i class="fa fa-fw">&nbsp;</i><a href="{{ link }}" title="{{ name }}" target="_blank">{{ name }}</a>
                 </li>
               {% endfor %}
             </ul>

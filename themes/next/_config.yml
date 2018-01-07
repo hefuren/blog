@@ -146,11 +146,15 @@ social_icons:
   Weibo: weibo
 
 # Blog rolls
-#links_title: Links
+links_title: 友情链接
+links_icon: link
 #links_layout: block
-#links_layout: inline
-#links:
+links_layout: inline
+links:
   #Title: http://example.com/
+  阮一峰的网络日志: http://www.ruanyifeng.com/blog/
+  Damonare: http://blog.damonare.cn/
+
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
@@ -232,8 +236,8 @@ post_meta:
 # Dependencies: https://github.com/willin/hexo-wordcount
 post_wordcount:
   item_text: true
-  wordcount: false
-  min2read: false
+  wordcount: true
+  min2read: true
   separated_meta: true
 
 # Wechat Subscriber
@@ -357,7 +361,7 @@ disqus:
   count: true
 
 # Hypercomments
-#hypercomments_id:
+hypercomments_id: 
 
 # changyan
 changyan:
@@ -572,7 +576,8 @@ use_motion: true
 fancybox: true
 
 # Progress bar in the top during page loading.
-pace: false
+# 顶部加载条
+pace: true
 # Themes list:
 #pace-theme-big-counter
 #pace-theme-bounce
@@ -688,6 +693,7 @@ vendors:
   # Internal version: 3.3.0
   # https://github.com/ethantw/Han
   han:
+
 
 
 # Assets
