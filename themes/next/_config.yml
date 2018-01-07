@@ -105,8 +105,18 @@ scheme: Pisces
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
+social:
   #LinkLabel: Link
+  GitHub: https://github.com/hefuren
+  LinkedIn: https://www.linkedin.com/in/%E5%AF%8C%E4%BB%81-%E4%BD%95-61493991/
+  微博: https://weibo.com/hefuren1984
+  简书: https://www.jianshu.com/u/995408936953
+  Twitter: https://twitter.com/ElwinHe
+  Facebook: https://www.facebook.com/elwinhe
+  About.me: https://about.me/elwinhe/
+
+
+
 
 # Social Links Icons
 # Icon Mapping:
@@ -116,14 +126,18 @@ scheme: Pisces
 social_icons:
   enable: true
   icons_only: false
-  transition: false
+  transition: true
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
-  GitHub: github
+  GitHub: github-square
+  LinkedIn: linkedin
+  weibo: weibo
+  jianshu: book  
+  Twitter: twitter
+  Facebook: facebook-square
+  About.me: address-card-o
   E-Mail: envelope
   Google: google
-  Twitter: twitter
-  FB Page: facebook
   VK Group: vk
   Skype: skype
   YouTube: youtube
