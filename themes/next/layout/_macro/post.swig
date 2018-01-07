@@ -158,7 +158,7 @@
                 </span>
                 <a href="{{ url_for(post.path) }}#comments" itemprop="discussionUrl">
                   <span class="post-comments-count hc-comment-count" data-xid="{{ post.path }}" itemprop="commentsCount"></span>
-                </a>
+                </a> 
               </span>
               <!--/noindex-->
             {% elseif theme.changyan.enable and theme.changyan.appid and theme.changyan.appkey %}
@@ -207,6 +207,7 @@
                 {% if not theme.post_wordcount.separated_meta %}
                   <span class="post-meta-divider">|</span>
                 {% endif %}
+		<span class="post-meta-divider">|</span>
                 <span class="post-meta-item-icon">
                   <i class="fa fa-file-word-o"></i>
                 </span>
