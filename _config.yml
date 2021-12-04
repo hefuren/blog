@@ -85,7 +85,7 @@ theme: next
 deploy:
   type: git
 #  repository: https://github.com/hefuren/hefuren.github.io.git
-  repository: https://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@github.com/hefuren/hefuren.github.io.git
+  repository: https://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@github.com/hefuren/hefuren.github.io.git
   branch: master
 
 
